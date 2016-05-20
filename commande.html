@@ -35,7 +35,7 @@
 
 
 </head>
-<body><div id="olark" style="display: none;"><olark><iframe frameborder="0" id="olark-loader" src="./Home_files/saved_resource.html"></iframe></olark></div>
+<body onload="totalC()"><div id="olark" style="display: none;"><olark><iframe frameborder="0" id="olark-loader" src="./Home_files/saved_resource.html"></iframe></olark></div>
 <div class="page">
     <!--========================================================
                               HEADER
@@ -83,7 +83,9 @@
     =========================================================-->
 
     <main>
+<!-- <div class="cleftg"><img src="img/bio.jpg"></div> -->
     <div id="input_div">
+
     <p id="quantite">Quantité de clés CLERIO à commander</p>
     <input type="range" name="quant" id="quant" min="500" max="10000" step="500" value="500" oninput="claque()"> <br>
 
@@ -186,7 +188,6 @@
         fp.value = port;
         pu.value = calc();
         payp.value = parseFloat(ann) + parseFloat(calc());
-        console.log(payp);
         shipp.value = port;
         total.value = (anneau + port +(count * calc())).toFixed(2);
         countUP.value = count;
@@ -212,7 +213,11 @@
     input {
         margin: auto;
     }
-
+    .cleftg {
+        height: 100px;
+        width: 150px;
+        display: inline;
+    }
 
 
 </style>
