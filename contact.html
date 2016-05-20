@@ -67,10 +67,7 @@
                 </nav>
             </div>
         </div>
-        <div class="container container-wide text-center">
-            <h1 class="head-bord">
-                <span class="small">essayez vous même</span>
-             <div class="abc">LA CLEF CADDIE</div>
+      
          
                     </header>
 
@@ -79,60 +76,66 @@
     =========================================================-->
 
     <main>
-        <!-- OUR AMAZING PRODUCTS -->
+      <!-- CONTACT US -->
         <section class="well-1">
-             <div class="clef3"><img src="img/clef3.png"></div>
-             <div class="clef2"><img src="img/clef2.png"></div>
-            <div class="container container-wide text-center">
-              <!--  <h2 class="head-bord-1">
-                   <span class="small">Découvrez</span>
-                    <span class="titre">NOS ENGAGEMENTS</span>
-                </h2>-->
-
-                <div class="row">
-                    <div class="col-md-10 col-lg-5">
-                        
-                    </div>
-                    <div class="col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-5 col-lg-offset-2 col-lg-5 offset-1">
-                        <ul class="marked-list">
-                           
-                            
-                           
-                        </ul>
-
-                      
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- END OUR AMAZING PRODUCTS -->
-
-        <!-- OUR SERVICES -->
-        <section class="well-2 bg-image-left">
-            <div class="container container-wide">
-              
+          <div class="container container-wide text-center">
+                <h2 class="head-bord-3">
                     <span class="small">
-
+                        Get in touch
+                    </span>
+                    CONTACT US
                 </h2>
 
-                <div class="row offset-1">
-                    <div class="col-md-offset-1 col-md-5 pull-md-right">
-                        
-                    </div>
-                    <div class="col-md-offset-1 col-md-5 pull-md-left">
-                        <ul class="marked-list-1">
-                            
-                            
-                        </ul>
-                    </div>
+                <div class="row center-sm text-left offset-2">
+                    <div class="col-md-3">
+                        <address class="contact-info">
+                            <p>8901 Marmora Road <br>
+                                Glasgow, DO4 89GR.</p>
+                            <dl>
+                                <dt>Telephone</dt>
+                                <dd><a href="callto:#">+1 959 603 6035</a></dd>
+                            </dl>
 
+                            <a href="mailto:#">mail@demolink.org</a>
+                        </address>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="rd-mailform" method="post" action="bat/rd-mailform.php">
+                            <!-- RD Mailform Type -->
+                            <input name="form-type" value="contact" type="hidden">
+                            <!-- END RD Mailform Type -->
+
+                            <div class="form-group mfInput">
+                                <label class="form-label rd-input-label" data-add-placeholder="" for="mailform-input-name">Name<span class="mfPlaceHolder"></span></label>
+                                <input id="mailform-input-name" name="name" data-constraints="@NotEmpty @LettersOnly" type="text">
+
+                            <span class="mfValidation"></span></div>
+
+                            <div class="form-group mfInput">
+                                <label class="form-label rd-input-label" data-add-placeholder="" for="mailform-input-email">Email<span class="mfPlaceHolder"></span></label>
+                                <input id="mailform-input-email" name="email" data-constraints="@NotEmpty @Email" type="text">
+
+                            <span class="mfValidation"></span></div>
+
+
+                            <div class="form-group textarea mfInput">
+                                <label class="form-label rd-input-label" data-add-placeholder="" for="mailform-input-textarea">Message<span class="mfPlaceHolder"></span></label>
+                      <textarea id="mailform-input-textarea" name="message" data-constraints="@NotEmpty"></textarea>
+
+                            <span class="mfValidation"></span></div>
+
+
+                            <div class="form-group btn-wr">
+                                <button class="btn btn-lg btn-primary" type="submit">Send</button>
+
+                                <div class="mfInfo mfProgress"><span class="cnt"></span><span class="loader"></span><span class="msg"></span></div>
+
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </section>
-        <!-- END OUR SERVICES -->
-
-
- 
+            </div>  
+        </section>  
     </main>
 
     <!--========================================================
