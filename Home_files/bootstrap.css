@@ -3366,7 +3366,7 @@ header {
   padding-top: 3.16666667em;
   background-color:#F1F1F1;
   background-size: 2000px;
-  height: 350px;
+  height: 250px;
 
 }
 
@@ -5188,6 +5188,7 @@ ol li a {
 }
 .marked-list-1 {
   text-align: left;
+  margin-top: 250px;
 }
 .marked-list-1 > li {
   position: relative;
@@ -9948,6 +9949,7 @@ a.list-group-item-danger.active:focus {
   padding-bottom: 75%;
 }
 .well-1 {
+  margin-top: -150px;
   padding-top: 55px;
   padding-bottom: 55px;
 }
