@@ -8,16 +8,17 @@
 .Atlas{
 	float: left;
 	position: absolute;
-	margin-left: 275px;
-	margin-top: 300px;
+	width: 250px;
+	margin-left: 250px;
+	margin-top: 375px;
 }
 
 .ecolo {
-	width: 50%;
 	float: left;
 	position: absolute;
 	width: 50%;
-	margin-top: 500px;
+	margin-top: 1250px;
+	margin-left: 560px;
 }
 
 .marked-list{
