@@ -76,6 +76,18 @@
     <!--========================================================
                               CONTENT
     =========================================================-->
+<div id="coucou">
+<div id="simplon"> <!--LOGO, EN 2 PARTIES-->
+
+<img class='simpln' src="img/logo.png"><!--SIMPL _ N -->
+</div>
+
+<div id="OO" >  <!-- O -->
+  <a href="#" id="home">
+    <img class="o" src="img/o.png" />
+  </a>
+</div>
+</div>
 <style>
     .laid {
         display: inline;
@@ -84,6 +96,73 @@
         height: 250px;
         width: auto;
     }
+
+#coucou {
+    z-index: 1000;
+    position: fixed;
+    right: 150px;
+    bottom: 50px;
+}
+
+    #simplon {
+  width: 160px;
+  margin-left: 85%;
+  margin-top: 90%;
+}
+
+.simpln {
+    width: 160px;
+}
+
+#OO {
+  margin-left: 85%;
+  margin-top: -58px;
+}
+
+.o {
+    display : inline-block; /*Très important, sinon les dimensions ne sont pas prises en compte*/
+    animation-duration: 8s;
+  animation-name: BTT;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width: 30px;
+  margin-left: 105px;
+}
+
+
+@keyframes BTT {
+    0%{
+    -moz-transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    }
+    25%{
+    -moz-transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    }
+    50%{
+    -moz-transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    -o-transform: rotateZ(360deg);
+    -ms-transform: rotateZ(360deg);
+    }
+    75%{
+    -moz-transform: rotateZ(720deg);
+    -webkit-transform: rotateZ(720deg);
+    -o-transform: rotateZ(720deg);
+    -ms-transform: rotateZ(720deg);
+    }
+    100%{
+    -moz-transform: rotateZ(720deg);
+    -webkit-transform: rotateZ(720deg);
+    -o-transform: rotateZ(720deg);
+    -ms-transform: rotateZ(720deg);
+    }
+}
 </style>
     <main>
         <!-- OUR AMAZING PRODUCTS -->
